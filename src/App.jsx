@@ -1,12 +1,12 @@
-import Todo from "./components/Todo.jsx";
 import "./App.css";
-import InlineComponent from "./components/InlineComponent.jsx";
+import InlineComponent from "./components/InlineComponent";
+import OutlineComponent from "./components/OutlineComponent";
 
 function App() {
   return (
     <div className="App">
-      {/* <Todo /> */}
       <InlineComponent />
+      <OutlineComponent />
     </div>
   );
 }
