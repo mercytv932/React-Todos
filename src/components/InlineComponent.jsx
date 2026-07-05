@@ -1,9 +1,9 @@
 import "../App.css";
 
-export default function InlineComponent() {
+export default function InlineComponent({ year }) {
   return (
     <div>
-      <h1 className="inline-header">InlineComponent</h1>
+      <h1 className="inline-header">InlineComponent {year}</h1>
     </div>
   );
 }
